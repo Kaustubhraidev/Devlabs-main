@@ -1,0 +1,135 @@
+.chatbot {
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  margin-right: 20px;
+  margin-bottom: 12px;
+  z-index: 999;
+}
+.chatbot-close-animation {
+  animation: animate-close ease-in 0.3s forwards;
+}
+.chatbot-animation {
+  animation: animate ease-in 0.3s forwards;
+}
+@keyframes animate {
+  from {
+    height: 0px;
+    /* width: 250px; */
+  }
+  to {
+    height: 450px;
+    width: 350px;
+  }
+}
+@keyframes animate-close {
+  from {
+    height: 450px;
+    width: 350px;
+  }
+  to {
+    height: 0px;
+    width: 0px;
+  }
+}
+.react-chatbot-kit-chat-input {
+  outline: none;
+}
+
+.react-chatbot-kit-chat-inner-container {
+  background-color: rgb(76, 96, 128);
+}
+
+.react-chatbot-kit-chat-container {
+  width: 350px;
+  height: 450px;
+}
+
+.react-chatbot-kit-chat-bot-message {
+  margin-left: 10px;
+}
+
+.react-chatbot-kit-chat-header {
+  background-color: rgb(153, 189, 230);
+}
+
+.react-chatbot-kit-chat-bot-message {
+  background-color: #2977f5;
+}
+
+.react-chatbot-kit-chat-bot-message-arrow {
+  border-right: 8px solid #478dea;
+}
+
+.react-chatbot-kit-chat-btn-send {
+  background-color: #55a0ea;
+  height: 45px;
+}
+
+.Logo {
+  height: 50px;
+  width: 50px;
+  cursor: pointer;
+  cursor: pointer;
+
+  height:50px;
+  width:50px;
+}
+
+
+  /* height: 50px;
+  width: 50px; */
+
+.Logo {
+  height: 50px;
+  width: 50px;
+
+  border-radius: 50px;
+  right: 12px;
+}
+
+.Avatar {
+  height: 50px;
+  width: 50px;
+  border-radius: 50px;
+}
+
+.userAvatar {
+  height: 50px;
+  width: 50px;
+  border-radius: 50px;
+}
+.close-button {
+  background-color: #55a0ea;
+  height: 45px;
+  width: 45px;
+  border-radius: 50px;
+  color: white;
+  font-size: 20px;
+  cursor: pointer;
+}
+@media only screen and (max-width: 425px) {
+  .chatbot {
+    margin-right: 5px;
+    margin-bottom: 5px;
+  }
+
+  .react-chatbot-kit-chat-container {
+    width: 300px;
+    height: 400px;
+    padding-bottom: 30px;
+  }
+  .react-chatbot-kit-chat-message-container {
+    height: 350px;
+  }
+  .Avatar {
+    height: 36px;
+    width: 36px;
+    border-radius: 50px;
+  }
+  .userAvatar {
+    height: 36px;
+    width: 36px;
+    border-radius: 50px;
+  }
+}
