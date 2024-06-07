@@ -16,7 +16,7 @@
 .back-to-top-button.visible {
     display: block;
 }
-@media screen and (max-height: 468px){
+@media screen and (max-height: 400px){
     .back-to-top-button{
     display: hidden;
     }
